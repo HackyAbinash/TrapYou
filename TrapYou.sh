@@ -1,5 +1,5 @@
 #!/usr/bin/bash
-#@Author prince kumar
+#@Author Abinash Barik
 #Date 23 dec 2020
 # Version V2.5.0
 #This is made only for educational purposes...
@@ -21,7 +21,7 @@ trap user_intrupt SIGTSTP
 # kill the already running proces
 user_intrupt(){
 	printf " \n ${w}\n"
-	printf " ${r}[${w}!${r}]---->>${p} Exiting Ravana2.0"
+	printf " ${r}[${w}!${r}]---->>${p} Exiting TrapYou2.0"
 	printf " \n"
 	sleep 1
 	exit 1
@@ -127,16 +127,16 @@ s_ngrok(){
 # make a function to update the tool
 updateme(){
     echo -e "\e[31;1m Checking version of the tool ...."
-    version=$(curl -s https://raw.githubusercontent.com/princekrvert/Ravana/main/version)
+    version=$(curl -s https://raw.githubusercontent.com/HackyAbinash/TrapYou/main/version)
     if [[ $version == 2.5.0 ]];then
     echo " "
     else
-    echo -e "\e[92;1m[~] New version of ravana found... "
+    echo -e "\e[92;1m[~] New version of TrapYou found... "
 	echo -ne "\e[32;1m Press y to update: "
 	read up
 	if [[ ( $up == "y") || ( $up == "Y") ]];then
-	echo -ne "Updating ravana please wait..."
-    git pull https://github.com/princekrvert/Ravana.git > /dev/null 2>&1 & echo -e "${g}[⏰${g}] ${b} wait..."
+	echo -ne "Updating TrapYou please wait..."
+    git pull https://github.com/HackyAbinash/TrapYou.git > /dev/null 2>&1 & echo -e "${g}[⏰${g}] ${b} wait..."
 	echo "updated sucessfully "
 	else 
 	echo ""
@@ -214,10 +214,10 @@ about_me(){
 	h_os=$(uname -o)
 	if [[( $h_os == "GNU/Linux" )]];then
 	echo ""
-	echo -e "${g}[${w}+${g}] ${y} I am prince kumar and i am a junior mechanical engineer.\n"
-	echo -e "${g}[${w}01${g}] ${p} Youtube: https://bit.ly/3sAFWqM "
-	echo -e "${g}[${w}02${g}] ${p} Instagram: https://bit.ly/3j6pdIU "
-	echo -e "${g}[${w}03${g}] ${p} Facebook: https://bit.ly/3z49Eaa "
+	echo -e "${g}[${w}+${g}] ${y} I am Abinash Barik and i am a Ethical Hacker.\n"
+	echo -e "${g}[${w}01${g}] ${p} Youtube: https://bit.ly/3PxgAFr "
+	echo -e "${g}[${w}02${g}] ${p} Instagram: https://bit.ly/3wBeQUm "
+	echo -e "${g}[${w}03${g}] ${p} Facebook: https://bit.ly/3sNjITK "
 	else
 	echo " "
 	echo -e "${g}[${w}+${g}] ${y} I am prince kumar and i am a junior mechanical engineer.\n"
@@ -261,7 +261,7 @@ req_m(){
 # calling req function
 req_m
 
-# make a typewriter for ravana2.0
+# make a typewriter for TrapYou2.0
 type_W(){
 	text=( 'S' 't' 'a' 'r' 't' 'i' 'n' 'g' ' ' 'R' 'a' 'v' 'a' 'n' 'a' )
 	for i in "${text[@]}";do
@@ -272,7 +272,7 @@ type_W(){
 #call the typewriter
 type_W
 trap user_intrupt 
-#Make a banner for Ravana2.0
+#Make a banner for TrapYou2.0
 banner(){
 	clear
 	
