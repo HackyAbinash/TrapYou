@@ -220,7 +220,7 @@ about_me(){
 	echo -e "${g}[${w}03${g}] ${p} Facebook: https://bit.ly/3sNjITK "
 	else
 	echo " "
-	echo -e "${g}[${w}+${g}] ${y} I am prince kumar and i am a junior mechanical engineer.\n"
+	echo -e "${g}[${w}+${g}] ${y} I am Abinash Barik and i am a Ethical Hacker.\n"
 	echo -e "${g}[${w}01${g}] ${p} Youtube"
 	echo -e "${g}[${w}02${g}] ${p} Instagram "
 	echo -e "${g}[${w}03${g}] ${p} Facebook"
@@ -263,7 +263,7 @@ req_m
 
 # make a typewriter for TrapYou2.0
 type_W(){
-	text=( 'S' 't' 'a' 'r' 't' 'i' 'n' 'g' ' ' 'R' 'a' 'v' 'a' 'n' 'a' )
+	text=( 'S' 't' 'a' 'r' 't' 'i' 'n' 'g' ' ' 'T' 'r' 'a' 'p' 'y' '0' 'u' )
 	for i in "${text[@]}";do
 		printf " ${r} ${i}"
 		sleep .3
@@ -279,10 +279,10 @@ banner(){
 	printf "\n ${r}"
 	printf "
 	        
-       ╦═╗╔═╗╦  ╦╔═╗╔╗╔╔═╗
-       ╠╦╝╠═╣╚╗╔╝╠═╣║║║╠═╣ \e[32;1m MADE BY PRINCE
-       ╩╚═╩ ╩ ╚╝ ╩ ╩╝╚╝╩ ╩  \e[0;1m 
-       Youtube : https://is.gd/UQreTd                                              
+       
+       \e[32;1m MADE BY Abinash Barik
+         \e[0;1m 
+       Youtube : https://bit.ly/3wE6OZr                                              
 
 "
 }
