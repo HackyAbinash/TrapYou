@@ -215,9 +215,9 @@ about_me(){
 	if [[( $h_os == "GNU/Linux" )]];then
 	echo ""
 	echo -e "${g}[${w}+${g}] ${y} I am Abinash Barik and i am a Ethical Hacker.\n"
-	echo -e "${g}[${w}01${g}] ${p} Youtube: https://bit.ly/3PxgAFr "
-	echo -e "${g}[${w}02${g}] ${p} Instagram: https://bit.ly/3wBeQUm "
-	echo -e "${g}[${w}03${g}] ${p} Facebook: https://bit.ly/3sNjITK "
+	echo -e "${g}[${w}01${g}] ${p} Youtube: https://bit.ly/3sSc4aT "
+	echo -e "${g}[${w}02${g}] ${p} Instagram: https://bit.ly/3lAFCFR "
+	echo -e "${g}[${w}03${g}] ${p} Facebook: https://bit.ly/3MHSoym "
 	else
 	echo " "
 	echo -e "${g}[${w}+${g}] ${y} I am Abinash Barik and i am a Ethical Hacker.\n"
